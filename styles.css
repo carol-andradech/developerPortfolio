@@ -206,3 +206,97 @@ footer {
   font-size: var(--M);
   font-weight: 400;
 }
+
+/* Mobile responsive styles for screens up to 600px width */
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  nav li {
+    padding-right: 10px;
+    font-size: var(--S);
+    margin: var(--S);
+  }
+
+  .text {
+    width: 100%;
+    padding: 10%;
+    justify-content: center;
+  }
+
+  .text h1 {
+    font-size: var(--L);
+  }
+
+  .logos {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .logos img {
+    align-items: center;
+    padding: 10px;
+  }
+
+  .link-content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .link-content img {
+    width: 100%;
+  }
+
+  .link {
+    font-size: var(--M);
+  }
+
+  .textfounder {
+    flex-direction: column;
+    width: 100%;
+    padding: 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .textfounder h2 {
+    font-size: var(--L);
+  }
+
+  .textfounder p {
+    font-size: var(--S);
+  }
+
+  .bottom {
+    align-items: center;
+    padding: 10%;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .foot {
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .social-footer img {
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+
+  .foot {
+    font-size: var(--S);
+  }
+}
